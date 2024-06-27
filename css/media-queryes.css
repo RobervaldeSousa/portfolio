@@ -1,0 +1,222 @@
+
+@media (min-width: 768px) {
+    .cabecalho {
+        font-size: 0.8rem;
+        justify-content: space-between;
+        margin: 5%;
+    }
+
+    .container__foto {
+        margin: 2% 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Raleway", sans-serif;
+        color: #b8b8b8; 
+    }
+
+    .foto img {
+        width: 200px;
+    }
+
+    .projetos img {
+        width: 600px;
+        height: 380px;
+    }
+
+}
+
+@media (min-width: 1440px) { 
+    .cabecalho {
+        font-family: "Raleway", sans-serif;
+        font-size: 0.9rem;
+        justify-content: space-between;
+        margin: 2% 10%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 1000px;
+        gap: 2rem;
+    }
+
+    .email {
+        font-weight: 700;
+        color: #b8b8b8;
+    }
+
+    .container__foto {
+        margin: 5% 10%;
+    }
+    
+    .foto img {
+        width: 300px;
+    }
+
+    .apresentacao__title {
+        font-size: 55px;
+    }
+
+    .apresentacao__p {
+        font-size: 1.7rem;
+    }
+
+    .redes {
+        gap: 4rem;
+    }
+    
+    .redes a {
+        gap: 5px;
+    }
+    
+    .redes a:hover {
+        color: #fff;
+        border-bottom: solid 1px;
+        transition: 400ms;
+    }
+
+    a .rede {
+        font-size: 1.3rem;
+    }
+
+    a .seta {
+        font-size: 1.5rem;
+    }
+
+    .sobre-mim {
+        margin-top: -1%;
+        padding: 5% 35% 5% 10%;
+    }
+
+    .container__sobre__mim p {
+        font-size: 1.5rem;
+    }
+
+    .sobre-mim-title {
+        font-size: 35px;
+    }
+
+    .start {
+        display: flex;
+        margin-left: 85%;
+        position: fixed;
+        width: 60px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .start a {
+        
+        color: #fff;
+        display: flex;
+        gap: 0.5rem;
+        padding: 10px;
+        background-color: #ababab;
+        border-radius: 20px;
+        
+    }
+    
+    .start a:hover {
+        background-color: #999898;
+        
+    }
+    
+    .start a:active {
+        border: solid 2px #ababab;
+        background-color: #fff;
+        color: #ababab;
+    }
+    
+    .skills__title {
+        font-size: 25px;
+    }
+
+    .hobbies__title {
+        font-size: 25px;
+        margin-top: 5rem;
+    }
+
+    .formacao-title {
+        font-size: 30px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        flex-direction: column; 
+        width: 325px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: -2px 3px 0 #e8e6e6, -3px 4px 0 #dbd9d9;
+    }
+
+    .experiencia-title {
+        font-size: 30px;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .calculadora, .poke{
+        flex-direction: row-reverse;
+        margin-left: 5%;
+        gap: 8rem;
+        
+    }
+
+    .projetos img {
+        width: 43.75rem;
+        height: 25rem;
+    }
+
+    .container-formulario {
+        display: flex;
+        background-color: #dfe7f0;
+        font-family: "Raleway", sans-serif;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0 50px 6%;
+        margin-top: 2%;
+        gap: 1rem;
+    }
+
+    .formulario {
+        width: 615px;
+        gap: 2.5rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .imagem-telefone {
+        display: flex;
+    }
+
+    .formulario__title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #464646;
+    }
+
+    .botao-enviar {
+        cursor: pointer;
+    }
+
+}
+
