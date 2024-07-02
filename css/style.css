@@ -485,3 +485,6 @@ input, textarea {
     flex-direction: column;
 }
 
+.thanks {
+    color: #fff;
+}
