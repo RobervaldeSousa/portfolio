@@ -70,7 +70,8 @@ body {
 }
 
 .email:hover {
-    border-bottom: solid 3px #cbc8c8;
+    border-bottom: solid 3px;
+    color: #fff;
 }
 
 .container__foto {
