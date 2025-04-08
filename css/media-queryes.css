@@ -1,19 +1,41 @@
 
 @media (min-width: 768px) {
-    .cabecalho {
+    .header {
         font-size: 0.8rem;
+        display: flex;
         justify-content: space-between;
-        margin: 5%;
+        padding: 0 2rem;
     }
 
+    .menu {
+        display: none;
+        z-index: 1;
+    }
+
+    .navigation {
+        width:650px;
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: row;
+        justify-content: end ;
+        align-items: center;
+        margin-left: 4rem;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    
     .container__foto {
-        margin: 2% 5%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        padding: 0 2rem;
         font-family: "Raleway", sans-serif;
-        color: #b8b8b8; 
+        color: #b8b8b8;
     }
 
     .foto img {
@@ -28,45 +50,45 @@
 }
 
 @media (min-width: 1440px) { 
-    .cabecalho {
+    .header {
         font-family: "Raleway", sans-serif;
         font-size: 0.9rem;
-        justify-content: space-between;
-        margin: 2% 10%;
-        text-align: center;
         display: flex;
-        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 0 2rem;
     }
 
-    .links {
-        display: flex;
-        justify-content: center;
-    }
+    
 
     .navigation {
         display: flex;
-        justify-content: center;
         align-items: center;
         padding: 10px;
-        width: 1000px;
-        gap: 2rem;
+        width: 650px;
+    }
+
+    .links {
+        font-size: 0.9rem;
     }
 
     .email {
         font-weight: 700;
         color: #b8b8b8;
+        font-size: 0.9rem;
     }
-
+    
     .container__foto {
-        margin: 5% 10%;
+        justify-content: space-around;
+
     }
     
     .foto img {
-        width: 300px;
+        width: 200px;
     }
 
     .apresentacao__title {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .apresentacao__p {
@@ -82,7 +104,7 @@
     }
     
     .redes a:hover {
-        color: #fff;
+        color: #6fee34;
         border-bottom: solid 1px;
         transition: 400ms;
     }
