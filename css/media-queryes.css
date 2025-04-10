@@ -1,33 +1,5 @@
 
 @media (min-width: 768px) {
-    .header {
-        font-size: 0.8rem;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 2rem;
-    }
-
-    .menu {
-        display: none;
-        z-index: 1;
-    }
-
-    .navigation {
-        width:650px;
-        display: flex;
-        gap: 0.5rem;
-        flex-direction: row;
-        justify-content: end ;
-        align-items: center;
-        margin-left: 4rem;
-    }
-
-    .links {
-        display: flex;
-        align-items: center;
-        font-size: 0.8rem;
-    }
-    
     .container__foto {
         display: flex;
         flex-direction: row;
@@ -49,38 +21,9 @@
 
 }
 
-@media (min-width: 1440px) { 
-    .header {
-        font-family: "Raleway", sans-serif;
-        font-size: 0.9rem;
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-        padding: 0 2rem;
-    }
-
-    
-
-    .navigation {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        width: 650px;
-    }
-
-    .links {
-        font-size: 0.9rem;
-    }
-
-    .email {
-        font-weight: 700;
-        color: #b8b8b8;
-        font-size: 0.9rem;
-    }
-    
+@media (min-width: 1440px) {
     .container__foto {
         justify-content: space-around;
-
     }
     
     .foto img {

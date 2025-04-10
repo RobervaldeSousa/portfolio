@@ -6,36 +6,43 @@
     <title>Front-end Portfólio</title>
     <link rel="stylesheet" href="./css/reset.css">
     
+    <link rel="stylesheet" href="./css/menu-hamburguer.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media-queryes.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
+    <script defer src="./main.js"></script>
 </head>
 <body>
     <header class="header" id="cabecalho">
-            <div class="header__img__nome">
-                <img src="./img/auto_awesome_black_24dp 1.png" alt="">
-                <span class="header__nome"> Roberval de Sousa</span>
-            </div>
-            <nav class="navigation">
-                    <button class="menu"></button>
-                    <a class="links"  href="#sobre-mim">Sobre mim</a>
-                
-                
-                    <a class="links" href="#skills">Skills</a>
-                
-                
-                    <a class="links" href="#hobbies">Hobbies</a>
-                
-                
-                    <a class="links" href="#formacao">Formação</a>
-                
-                
-                    <a class="links" href="#projetos">Projetos</a>
-                <a href="#contato" class="email">Contato</a>
+            <nav class="nav">
+                <div class="nav_img-nome">
+                    <img src="./img/auto_awesome_black_24dp 1.png" alt="">
+                    <h3>Roberval de Sousa</h3>
+                </div>
+                <button id="menu" class="menu"></button>
+                <ul class="nav-list">
+                    <li>
+                        <a class="links" href="#sobre-mim">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#formacao">Formação</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#contato" class="email">Contato</a>
+                    </li>
+                </ul>
             </nav>
     </header>
-    
     <main class="container">
         <section class="container__foto">
             <div class="container__apresentacao">
@@ -248,6 +255,5 @@
         <a href="./thanks.html" class="thanks">thanks</a> 
     </footer>
     <script src="https://kit.fontawesome.com/23bbcafaf1.js" crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
 </body>
 </html
